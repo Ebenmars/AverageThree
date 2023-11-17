@@ -9,15 +9,12 @@ public class Main {
         double total;
 
 
-        System.out.println("First Number: ");
+        System.out.println("Input Numbers: ");
         first = scan.nextDouble();
-        scan.nextLine();
-        System.out.println("Second Number: ");
         second = scan.nextDouble();
-        scan.nextLine();
-        System.out.println("Third Number: ");
         third = scan.nextDouble();
         scan.nextLine();
+
 
         total = (first + second + third)/3.0;
 
